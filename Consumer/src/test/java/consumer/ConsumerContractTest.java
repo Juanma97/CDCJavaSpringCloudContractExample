@@ -15,10 +15,13 @@ import org.springframework.test.context.junit4.SpringRunner;
 @AutoConfigureJsonTesters
 @AutoConfigureStubRunner(
         stubsMode = StubRunnerProperties.StubsMode.LOCAL,
+        /** Remote contracts with CI **/
+        // stubsMode = StubRunnerProperties.REMOTE,
+        // repositoryRoot = "nexus-repository",
         ids = "org.example:Producer:1.0-SNAPSHOT:stubs"
 )
 public class ConsumerContractTest {
 
     @Test
-    public void test() {}
+    public void test() { }
 }
