@@ -1,0 +1,13 @@
+{
+  "id" : "2a0d0399-c99a-48e3-b5e1-ce926a22abab",
+  "request" : {
+    "url" : "/users/1",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"city\":\"Madrid\",\"name\":\"Paco\",\"age\":22}",
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "2a0d0399-c99a-48e3-b5e1-ce926a22abab"
+}
